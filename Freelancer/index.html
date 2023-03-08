@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel = "preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet"> 
     <link rel = "preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,14 +16,13 @@
         <h1 class="title">Alejandro Galvez <span>Computer Science</span></h1>
     </header>
 
-    <nav>
-        <a href="#">Main Menu</a>
-        <a href="#">Courses</a>
-        <a href="#">Books</a>
-    
-    </nav>
-
-    <img src="img/coding.png">
+    <div class="nav-bg">
+        <nav class="main-nav container">
+            <a href="#">Main Menu</a>
+            <a href="#">Courses</a>
+            <a href="#">Books</a>
+        </nav>
+    </div>
 
     <section>
         <h2>Portfolio Design</h2>
@@ -113,7 +115,7 @@
     </section>
 
     <footer>
-        <p>© 2021 Alejandro Galvez</p>
+        <p>© 2023 Alejandro Galvez</p>
     </footer>
     
 </body>

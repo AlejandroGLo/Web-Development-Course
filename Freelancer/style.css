@@ -1,17 +1,51 @@
+:root {
+    --white: #ffffff;
+    --black: #212121;
+    --primary: #FFC107;
+    --secondary:#0097A7;
+    --grey: #757575;
+
+
+}
+
 html{
     font-size: 62.5%;
 }
 
 body{
     font-size: 16px; /* 1rem = 10px */
+    font-family: 'Krub', sans-serif;
 }
 
 
 .title {
     text-align: center;
-    font-size: 3.8rem;  
+    font-size: 3.8rem;
 }
 
 .title span {
     font-size: 2rem;
 }
+
+.container{
+    width: 120rem;
+    /*margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left:auto;
+    This is the same as both lines below
+
+    margin: 0 auto 0 auto;*/
+    margin: 0 auto;
+}
+
+.nav-bg{
+    background-color: var(--secondary);
+}
+
+
+.main-nav{
+    background-color: var(--secondary);
+
+}
+
