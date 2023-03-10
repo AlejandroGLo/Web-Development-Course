@@ -45,7 +45,21 @@ body{
 
 
 .main-nav{
-    background-color: var(--secondary);
-
+    display: flex;
+    justify-content: space-between;
 }
+
+.main-nav a{
+    color:var(--white);
+    text-decoration:none;
+    font-size:2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.main-nav a:hover{
+    color:var(--primary);
+}
+
+
 
