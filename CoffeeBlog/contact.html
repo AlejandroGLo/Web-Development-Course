@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeBlog</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+
+        <div class="container">
+            <div class="bar">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__name no-margin text-center">Coffee<span class="logo__bold">Blog</span></h1>
+                </a>
+
+                <nav class="navigating">
+                    <a href="about.html" class="navigation__link">About us</a>
+                    <a href="services.html" class="navigation__link">Services</a>
+                    <a href="contact.html" class="navigation__link">Contact</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__text">
+            <h2 class ="no-margin">Coffee Blog with tips</h2>
+            <p class="no-margin">Learn to brew the best coffee</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <h3 class="text-center">Contact</h3>
+
+        <div class="contact-bg"></div>
+
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="name">Nombre</label>
+                <input 
+                class="campo__field"
+                type="text" 
+                placeholder="Your Name" 
+                id="name">
+            </div>
+        </form>
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="email">Email</label>
+                <input 
+                class="campo__field"
+                type="email" 
+                placeholder="Your Email" 
+                id="email">
+            </div>
+        </form>
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="message">Message</label>
+                <textarea 
+                class="campo__field campo__field--textarea"
+                id="message"></textarea>
+            </div>
+
+            <div class="campo">
+                <input type="submit" value="Send" class="boton boton--primario">
+            </div>
+        </form>
+      
+    </main> 
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="bar">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__name no-margin text-center">Coffee<span class="logo__bold">Blog</span></h1>
+                </a>
+
+                <nav class="navigating">
+                    <a href="about.html" class="navigation__link">About us</a>
+                    <a href="services.html" class="navigation__link">Services</a>
+                    <a href="contact.html" class="navigation__link">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
