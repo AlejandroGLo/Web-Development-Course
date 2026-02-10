@@ -38,6 +38,6 @@ nuevoEnlance.classList.add('navegacion__enlance')
 const navegacion = document.querySelector('.navegacion');
 navegacion.appendChild(nuevoEnlace);
 
-console.log(nuevoEnlace);
+console.log(nuevoEnlace); // a
 
 
