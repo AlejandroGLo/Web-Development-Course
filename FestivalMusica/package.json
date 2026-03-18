@@ -1,0 +1,25 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS y npm",
+  "keywords": [
+    "SASS",
+    "NPM",
+    "GULP"
+  ],
+  "homepage": "https://github.com/AlejandroGLo/Web-Development-Course#readme",
+  "bugs": {
+    "url": "https://github.com/AlejandroGLo/Web-Development-Course/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandroGLo/Web-Development-Course.git"
+  },
+  "license": "ISC",
+  "author": "Alejandro Galvez",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
